@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "ColfaxAI";
+  src: url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff2)
+      format("woff2"),
+    url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ColfaxAI";
+  src: url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff2) format("woff2"),
+    url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff) format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://thumbs.gfycat.com/JaggedAstonishingGuillemot-size_restricted.gif");
+  background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+  align-items: center;
+  padding-top: 0px;
+}
+
+.result {
+  font-weight: bolder;
+  margin-top: 30px;
+  text-align: center;
+  display: inline-flex; /* keep the background color wrapped tight */
+  padding:40px;font-size:75px;background-color:rgba(218,13,53,255);color:#000000;
+
+}
+
+.icon {
+  width: 0px;
+}
+
+h3 {
+  font-size: 15px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #202123;
+  margin: 16px 0 40px;
+}
+
+body,
+input[name="new"]{
+  font-size: 50px;
+  line-height: 50px;
+  color: rgba(218,13,53,255);
+  background-color: #000000;
+  font-family: "ColfaxAI", Helvetica, sans-serif;
+
+}
+
+input[name="addplayerbutton"]{
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  padding-top: 10px;
+  margin: 16px 0 40px;
+  position:relative;  top:250px;
+  align-items: center;  
+  color: rgb(125,14,36);
+  background-color: rgba(0, 0, 0, 0.501);
+  font-family: "ColfaxAI", Helvetica, sans-serif;
+  
+}
+  
+input[name="addplayer"]{
+
+  width: 320px;
+  padding-top: 10px;
+  margin: 16px 0 40px;
+  position:relative;  top:400px;
+  background-color: rgb(125,14,36);
+  color: #000000 !important;
+  font-family: "ColfaxAI", Helvetica, sans-serif;
+}
+
+input[name="resetnames"]{
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  padding-top: 10px;
+  margin: 16px 0 40px;
+  position:relative;  top:250px;
+  align-items: center;  
+  color: rgb(125,14,36);
+  background-color: rgba(0, 0, 0, 0.501);
+  font-family: "ColfaxAI", Helvetica, sans-serif;
+  
+}
+
+input[name="clear"]{
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  padding-top: 10px;
+  margin: 16px 0 40px;
+  position:relative;  right: 700px; top:250px;
+  align-items: center;  
+  color: rgb(125,14,36);
+  background-color: rgba(0, 0, 0, 0.501);
+  font-family: "ColfaxAI", Helvetica, sans-serif;
+  
+}

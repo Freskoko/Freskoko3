@@ -1,7 +1,7 @@
 from flask import Flask, redirect, render_template, request, url_for
 import random
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
 @app.route("/", methods=("GET", "POST"))
 
